@@ -12,6 +12,10 @@
 		66F527F419556B1B00250CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F527F319556B1B00250CCF /* Images.xcassets */; };
 		66F527F719556B1B00250CCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F527F519556B1B00250CCF /* MainMenu.xib */; };
 		66F5280319556B1B00250CCF /* SwiftHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5280219556B1B00250CCF /* SwiftHeapTests.swift */; };
+		66F5280D19556B5400250CCF /* SwiftArrayHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5280C19556B5400250CCF /* SwiftArrayHeap.swift */; };
+		66F5280F19556B9000250CCF /* SwiftArrayHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5280E19556B9000250CCF /* SwiftArrayHeapTests.swift */; };
+		66F5281319556C0200250CCF /* ObjCMutableArrayHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F5281219556C0200250CCF /* ObjCMutableArrayHeap.m */; };
+		66F5281619556C4F00250CCF /* ObjCMutableArrayHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F5281519556C4F00250CCF /* ObjCMutableArrayHeapTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 		66F527FC19556B1B00250CCF /* SwiftHeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F5280119556B1B00250CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F5280219556B1B00250CCF /* SwiftHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeapTests.swift; sourceTree = "<group>"; };
+		66F5280C19556B5400250CCF /* SwiftArrayHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayHeap.swift; sourceTree = "<group>"; };
+		66F5280E19556B9000250CCF /* SwiftArrayHeapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayHeapTests.swift; sourceTree = "<group>"; };
+		66F5281019556C0200250CCF /* SwiftHeap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftHeap-Bridging-Header.h"; sourceTree = "<group>"; };
+		66F5281119556C0200250CCF /* ObjCMutableArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCMutableArrayHeap.h; sourceTree = "<group>"; };
+		66F5281219556C0200250CCF /* ObjCMutableArrayHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCMutableArrayHeap.m; sourceTree = "<group>"; };
+		66F5281419556C4F00250CCF /* SwiftHeapTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftHeapTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		66F5281519556C4F00250CCF /* ObjCMutableArrayHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCMutableArrayHeapTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +90,10 @@
 				66F527F319556B1B00250CCF /* Images.xcassets */,
 				66F527F519556B1B00250CCF /* MainMenu.xib */,
 				66F527ED19556B1B00250CCF /* Supporting Files */,
+				66F5280C19556B5400250CCF /* SwiftArrayHeap.swift */,
+				66F5281119556C0200250CCF /* ObjCMutableArrayHeap.h */,
+				66F5281219556C0200250CCF /* ObjCMutableArrayHeap.m */,
+				66F5281019556C0200250CCF /* SwiftHeap-Bridging-Header.h */,
 			);
 			path = SwiftHeap;
 			sourceTree = "<group>";
@@ -95,8 +110,11 @@
 		66F527FF19556B1B00250CCF /* SwiftHeapTests */ = {
 			isa = PBXGroup;
 			children = (
+				66F5281519556C4F00250CCF /* ObjCMutableArrayHeapTests.m */,
+				66F5280E19556B9000250CCF /* SwiftArrayHeapTests.swift */,
 				66F5280219556B1B00250CCF /* SwiftHeapTests.swift */,
 				66F5280019556B1B00250CCF /* Supporting Files */,
+				66F5281419556C4F00250CCF /* SwiftHeapTests-Bridging-Header.h */,
 			);
 			path = SwiftHeapTests;
 			sourceTree = "<group>";
@@ -210,6 +228,8 @@
 			files = (
 				66F527F219556B1B00250CCF /* AppDelegate.swift in Sources */,
 				66F527F019556B1B00250CCF /* main.swift in Sources */,
+				66F5281319556C0200250CCF /* ObjCMutableArrayHeap.m in Sources */,
+				66F5280D19556B5400250CCF /* SwiftArrayHeap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F5281619556C4F00250CCF /* ObjCMutableArrayHeapTests.m in Sources */,
 				66F5280319556B1B00250CCF /* SwiftHeapTests.swift in Sources */,
+				66F5280F19556B9000250CCF /* SwiftArrayHeapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +287,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -308,6 +330,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -324,10 +347,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftHeap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHeap/SwiftHeap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SwiftHeap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHeap/SwiftHeap-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -346,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftHeap.app/Contents/MacOS/SwiftHeap";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -359,6 +388,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHeapTests/SwiftHeapTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -367,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftHeap.app/Contents/MacOS/SwiftHeap";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -376,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHeapTests/SwiftHeapTests-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -399,6 +432,7 @@
 				66F5280819556B1B00250CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66F5280919556B1B00250CCF /* Build configuration list for PBXNativeTarget "SwiftHeapTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +441,7 @@
 				66F5280B19556B1B00250CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
