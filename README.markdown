@@ -9,7 +9,7 @@ Opt     | Obj-C   | Swift
 
 
 Implementation          | Time    | Note
------------------------ | -------:| -----------------
+:---------------------- | -------:|:-----------------
 Obj-C NSMutableArray    |  0.009  | 
 Swift Array             |  0.254  | 
 Swift Array             | 54.981  | (Heap class subclassed from NSObject)
