@@ -72,7 +72,7 @@
 
 - (void)testPerformance {
     const int batchSize = 128;
-    const int batchCount = 1000;
+    const int batchCount = 10;      // 1000;
     static int buffer[batchSize * batchCount];
     
     srandom(0xf00dface);

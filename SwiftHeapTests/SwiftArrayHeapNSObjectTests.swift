@@ -1,23 +1,23 @@
 //
-//  SwiftArrayHeapTests.swift
+//  SwiftArrayHeapNSObjectTests.swift
 //  SwiftHeap
 //
-//  Created by Pelle on 2014-06-21.
+//  Created by Pelle on 2014-06-22.
 //  Copyright (c) 2014 AutoMac. All rights reserved.
 //
 
 import XCTest
 import SwiftHeap
 
-class SwiftArrayHeapTests: XCTestCase {
+class SwiftArrayHeapNSObjectTests: XCTestCase {
 
-    var heap = SwiftArrayHeap()
+    var heap = SwiftArrayHeapNSObject()
     var testValues = Int[]()
     var sortedValues = Int[]()
     
     override func setUp() {
         super.setUp()
-        self.heap = SwiftArrayHeap()
+        self.heap = SwiftArrayHeapNSObject()
         self.testValues = [36, 37, 15, 25, 1, 86, 64, 1, 57, 79, 88, 54, 52, 23, 98, 90, 64, 35, 55, 58]
         self.sortedValues = sort(testValues, { $0 < $1 } )
     }

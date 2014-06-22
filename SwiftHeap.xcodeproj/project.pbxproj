@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66EF21C11956BCF200572290 /* SwiftArrayHeapNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF21C01956BCF200572290 /* SwiftArrayHeapNSObject.swift */; };
+		66EF21C31956BD2800572290 /* SwiftArrayHeapNSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF21C21956BD2800572290 /* SwiftArrayHeapNSObjectTests.swift */; };
 		66F527F019556B1B00250CCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F527EF19556B1B00250CCF /* main.swift */; };
 		66F527F219556B1B00250CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F527F119556B1B00250CCF /* AppDelegate.swift */; };
 		66F527F419556B1B00250CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F527F319556B1B00250CCF /* Images.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66EF21C01956BCF200572290 /* SwiftArrayHeapNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayHeapNSObject.swift; sourceTree = "<group>"; };
+		66EF21C21956BD2800572290 /* SwiftArrayHeapNSObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayHeapNSObjectTests.swift; sourceTree = "<group>"; };
 		66F527EA19556B1B00250CCF /* SwiftHeap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHeap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F527EE19556B1B00250CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F527EF19556B1B00250CCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				66F527F519556B1B00250CCF /* MainMenu.xib */,
 				66F527ED19556B1B00250CCF /* Supporting Files */,
 				66F5280C19556B5400250CCF /* SwiftArrayHeap.swift */,
+				66EF21C01956BCF200572290 /* SwiftArrayHeapNSObject.swift */,
 				66F5281119556C0200250CCF /* ObjCMutableArrayHeap.h */,
 				66F5281219556C0200250CCF /* ObjCMutableArrayHeap.m */,
 				66F5281019556C0200250CCF /* SwiftHeap-Bridging-Header.h */,
@@ -110,6 +115,7 @@
 		66F527FF19556B1B00250CCF /* SwiftHeapTests */ = {
 			isa = PBXGroup;
 			children = (
+				66EF21C21956BD2800572290 /* SwiftArrayHeapNSObjectTests.swift */,
 				66F5281519556C4F00250CCF /* ObjCMutableArrayHeapTests.m */,
 				66F5280E19556B9000250CCF /* SwiftArrayHeapTests.swift */,
 				66F5280219556B1B00250CCF /* SwiftHeapTests.swift */,
@@ -227,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F527F219556B1B00250CCF /* AppDelegate.swift in Sources */,
+				66EF21C11956BCF200572290 /* SwiftArrayHeapNSObject.swift in Sources */,
 				66F527F019556B1B00250CCF /* main.swift in Sources */,
 				66F5281319556C0200250CCF /* ObjCMutableArrayHeap.m in Sources */,
 				66F5280D19556B5400250CCF /* SwiftArrayHeap.swift in Sources */,
@@ -240,6 +247,7 @@
 				66F5281619556C4F00250CCF /* ObjCMutableArrayHeapTests.m in Sources */,
 				66F5280319556B1B00250CCF /* SwiftHeapTests.swift in Sources */,
 				66F5280F19556B9000250CCF /* SwiftArrayHeapTests.swift in Sources */,
+				66EF21C31956BD2800572290 /* SwiftArrayHeapNSObjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

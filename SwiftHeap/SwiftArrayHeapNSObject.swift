@@ -1,15 +1,15 @@
 //
-//  SwiftArrayHeap.swift
+//  SwiftArrayHeapNSObject.swift
 //  SwiftHeap
 //
-//  Created by Pelle on 2014-06-21.
+//  Created by Pelle on 2014-06-22.
 //  Copyright (c) 2014 AutoMac. All rights reserved.
 //
 
 import Cocoa
 
-class SwiftArrayHeap {
-    
+class SwiftArrayHeapNSObject: NSObject {
+
     var tree = Int[]()
     
     var size: Int {
