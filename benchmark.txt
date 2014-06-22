@@ -5,3 +5,8 @@ Opt	Obj-C	Swift
 -O3	0.774	5197
 -Os	0.770	5021
 -Ofast	0.774	5089
+
+
+Obj-C NSMutableArray	 0.009
+Swift Array		 0.254
+Swift Array		54.981	(Heap class subclassed from NSObject)
